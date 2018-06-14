@@ -1,0 +1,47 @@
+{
+  "name": "fontawesome-svg-sprite-generator",
+  "version": "1.0.0",
+  "description": "Generate custom SVG sprites for a selected number of Font Awesome 5 icons",
+  "author": "Minecrell <minecrell@minecrell.net> (https://minecrell.net)",
+  "license": "MIT",
+  "homepage": "https://github.com/Minecrell/fontawesome-svg-sprite-generator#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Minecrell/fontawesome-svg-sprite-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Minecrell/fontawesome-svg-sprite-generator/issues"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.3",
+    "@types/node": "^8.10.20",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha -r ts-node/register test/*.ts"
+  },
+  "keywords": [
+    "fontawesome",
+    "svg-sprite",
+    "icon",
+    "icons",
+    "svg",
+    "svg-sprites",
+    "font",
+    "awesome",
+    "fa"
+  ]
+}
