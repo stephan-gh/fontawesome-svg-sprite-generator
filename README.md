@@ -1,4 +1,4 @@
-# fontawesome-svg-sprite-generator [![Coverage Status](https://coveralls.io/repos/github/Minecrell/fontawesome-svg-sprite-generator/badge.svg?branch=master)](https://coveralls.io/github/Minecrell/fontawesome-svg-sprite-generator?branch=master)
+# fontawesome-svg-sprite-generator [![Build Status](https://travis-ci.com/Minecrell/fontawesome-svg-sprite-generator.svg?branch=master)](https://travis-ci.com/Minecrell/fontawesome-svg-sprite-generator) [![Coverage Status](https://coveralls.io/repos/github/Minecrell/fontawesome-svg-sprite-generator/badge.svg?branch=master)](https://coveralls.io/github/Minecrell/fontawesome-svg-sprite-generator?branch=master)
 
 A simple [Node.js] library that generates custom SVG sprite files for a selected number of [Font Awesome] 5 icons.
 
