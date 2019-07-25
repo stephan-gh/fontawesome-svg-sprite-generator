@@ -1,6 +1,6 @@
 {
   "name": "fontawesome-svg-sprite-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate custom SVG sprites for a selected number of Font Awesome 5 icons",
   "author": "Minecrell <minecrell@minecrell.net> (https://minecrell.net)",
   "license": "MIT",
