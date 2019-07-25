@@ -130,9 +130,9 @@ const sprite = faSvgSprite.generate([
 ```
 
 ### Styling
-Unfortunately, scaling the SVG icons doesn't quite work as expected by default. To preserve the aspect ratio of the icons,
+Unfortunately, scaling the SVG icons does not quite work as expected by default. To preserve the aspect ratio of the icons,
 you will either need to copy the `viewBox` of the icon on each usage, or set both width and height manually using CSS.
-Alternativelly, you can re-use Font Awesome's CSS classes from the SVG-with-JS stylesheet.
+Alternatively, you can re-use Font Awesome's CSS classes from the SVG-with-JS stylesheet.
 
 #### Using Font Awesome's stylesheet
 You can re-use the CSS classes that would normally be set automatically when using Font Awesome's SVG-with-JS framework.
@@ -245,7 +245,7 @@ gulp.task('icons', done => {
 ```
 
 #### Transforming SVG with streams
-A bit more effort is needed if you'd like to transform the generated SVG with other Gulp plugins:
+A bit more effort is needed if you would like to transform the generated SVG with other Gulp plugins:
 
 
 ```js
@@ -273,7 +273,7 @@ gulp.task('icons', () => {
 ```
 
 #### Symbol Attributes
-If you'd like to serialize the [Symbol Attributes] into an additional JSON file, using Promises is easier:
+If you would like to serialize the [Symbol Attributes] into an additional JSON file, using Promises is easier:
 
 ```js
 const util = require('util');
