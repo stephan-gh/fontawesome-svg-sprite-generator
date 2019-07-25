@@ -37,6 +37,9 @@ function testGenerate(tests: SpriteTests, options: Options, subdir: string = '')
             readFile(path.join(__dirname, 'expected', subdir, `${test.expected || name}.svg`), (err, data) => {
                 if (err) throw err;
 
+                // Generate deterministic ids
+                Math.random = () => 0;
+
                 const testOptions = Object.assign({}, options, test.options);
                 const sprite = generate(test.icons || [], testOptions);
 
